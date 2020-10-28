@@ -6,4 +6,10 @@
         <attr name="text" format="string"/>
     </declare-styleable>
 
+    <declare-styleable name="MyPrivateEditText">
+        <attr name="image2" format="reference"/>
+        <attr name="image3" format="reference"/>
+        <attr name="text2" format="string"/>
+    </declare-styleable>
+
 </resources>

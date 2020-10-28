@@ -1,0 +1,20 @@
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/edit_text_private"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+
+    <ImageView
+        android:id="@+id/image_view_private"
+        android:layout_centerInParent="true"
+        android:paddingLeft="4dp"
+        android:layout_toEndOf="@id/edit_text_private"
+        android:src="@drawable/ic_baseline_remove_red_eye_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

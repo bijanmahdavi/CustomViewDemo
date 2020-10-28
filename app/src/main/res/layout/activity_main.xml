@@ -1,4 +1,5 @@
 <LinearLayout android:layout_height="match_parent"
+    android:id="@+id/m_linear_layout"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
@@ -8,6 +9,14 @@
     <com.example.customviewdemo.helper.MyCustomView
         app:image="@drawable/ic_android_black_24dp"
         app:text="Hello from my Custom View!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.example.customviewdemo.helper.MyPrivateEditText
+        android:id="@+id/privateEditText"
+        app:image2="@drawable/ic_baseline_lock_24"
+        app:image3="@drawable/ic_baseline_remove_red_eye_24"
+        app:text2="Secure Username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
